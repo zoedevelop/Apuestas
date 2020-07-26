@@ -70,6 +70,7 @@ body{
     box-shadow: none;
     outline: none;
     text-align: center;
+    letter-spacing: 2px;
 }
 ::-webkit-input-placeholder { /* Edge */
     color: white;
@@ -96,6 +97,7 @@ body{
     box-shadow: none;
     outline: none;
     text-transform: capitalize;
+    letter-spacing: 2px;
 }
 .recoverPassword{
     text-decoration: none;
