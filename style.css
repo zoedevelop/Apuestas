@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background: url('img/01-Fondos_Full-Apuestas.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.container-fluid{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.box_terminosCondiciones{
+    width: 100%;
+    display:block;
+    position: relative;
+}
+
+.terminosCondiciones{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+}
+
+.logo_principal{
+    width: 30%;
+    margin-top: 20%;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.box_login{
+    margin-top: 50%;
+}
+
+.form_login{
+    display: flex;
+    flex-direction: column;
+}
+.form_login > input[type=text],input[type=password]{
+    display: block;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    background: #2C3E50;
+    border: 1px solid #575756;
+    border-radius: 15px;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+    text-align: center;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    text-align: center;
+  }
+::placeholder {
+    color: white;
+    text-align: center;
+    opacity: .5;
+  }
+.form_login > input[type=submit],input[type=button]{
+    display: block;
+    padding: 15px;
+    margin: 5px 0;
+    color: white;
+    background: #E74C3C;
+    border: 1px solid #575756;
+    border-radius: 15px;
+    box-shadow: none;
+    outline: none;
+    text-transform: capitalize;
+}
+.recoverPassword{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    font-family: BalooPaaji2;
+}
+
+
+
