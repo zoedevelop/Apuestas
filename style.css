@@ -6,7 +6,7 @@
 
 body{
     width: 100vw;
-    min-height: 100vh;
+    max-height: 100vh;
     background: url('img/01-Fondos_Full-Apuestas.jpg');
     background-size: cover;
     background-position: top center;
@@ -15,7 +15,7 @@ body{
 }
 .container-fluid{
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     position: relative;
     display: flex;
     flex-direction: column;
